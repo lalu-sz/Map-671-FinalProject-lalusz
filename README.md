@@ -1,8 +1,8 @@
 
  # Project title: Mobility Realities in Atlanta, Georgia
  ## Map-671-FinalProject-lalusz
- Repository for MAP 671 Final Project: https://github.com/lalu-sz/Map-671-FinalProject-lalusz
- Github Page: https://lalu-sz.github.io/Map-671-FinalProject-lalusz/
+ * Repository for MAP 671 Final Project: https://github.com/lalu-sz/Map-671-FinalProject-lalusz
+ * Github Page: https://lalu-sz.github.io/Map-671-FinalProject-lalusz/
 
 
 ## Project Contents
