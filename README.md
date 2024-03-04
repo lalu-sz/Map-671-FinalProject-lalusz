@@ -39,7 +39,9 @@ The first step towards building my MA project is creating a qualitative "base ma
 1. Modified baselayers from **Grey's Arch Assignment (3.4)** to fit darker design; push into the background
 2. Sourced data from *open* data sources
 3. Prepared demographic data (sourced from **Social Explorer**) for GIS format in QGIS
- ![Data Prep and Label Extraction in QGIS for later use in Mapbox](C:/Users/spark/OneDrive/Documents/00_NMP/MAP671/Map-671-FinalProject-lalusz/Process1.JPG)
+
+ ![Data Prep and Label Extraction in QGIS for later use in Mapbox](img\Process1.JPG)
+ 
 4. Styled all layers and labels in **Mapbox Studio**
 
 ### Map summary
