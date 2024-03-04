@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Mobility Differentials in Atlanta Georgia</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+    <style>
+        /* UK Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #222438;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #75967A;
+            font-size: 1.1em;
+
+        }
+
+        section {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900i;
+            color:#6AEB7C;
+            font-size: 2.8em;
+            font-style: italic;
+            /* The em unit. 3x the current size */
+            letter-spacing: .01em;
+            margin: 0 0 15px 0;
+            /* text-transform: uppercase; */
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #6AEB7C;
+            font-size: 1.5em;
+            letter-spacing: .06em;
+            font-style: italic;
+            margin: 0 0 25px 0;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.8em;
+            margin: 0 0 25px 0;
+        }
+
+        a {
+            color: #B69DEB;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding: 0px 20px 4px 20px;
+            /* font-size: 0.96em; */
+            line-height: 1.6em;
+            color: #75967A;
+        }
+
+        li {
+            margin: 10px 0
+        }
+
+        #map {
+            width: 100%;
+            margin: 0px auto;
+
+        }
+
+        .max-image-width {
+            width: 100%;
+        }
+
+        /* add custom style class here */
+
+        .linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
+        hr {
+            border: 0px;
+            border-bottom: 1px solid #3d3d3d;
+            padding-top: 20px;
+        }
+
+        /* Use float property to make two-column layout */
+
+        .first-column {
+            float: left;
+            width: 48%;
+            padding-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .svg-title {
+            float: left;
+            display: inline-block;
+            width: 75px;
+            margin: -8px 10px -8px 0;
+        }
+
+        /* When browser is 800px wide or less */
+
+        @media screen and (max-width: 800px) {
+
+            .first-column,
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="map.html" width="100%" height="440px"></iframe>
+    <section>
+        <a href='map.html' class="linkbox">Full-screen version</a>
+
+        <img src="arches.svg" class="svg-title">
+        <h1>Mobility Differentials in Atlanta, Georgia</h1>
+        <h2>Laurel Sparks // University of Kentucky Geography</h2>
+        <div class="row">
+            <div class="first-column">
+                <p>
+                    This map serves as the first draft of a "base map" for my MA thesis at the University of Kentucky. 
+                    For my thesis, I am interested in mobility differentials in Atlanta, Georgia. 
+                    Mobility differentials simply refer to empirical observation that different groups of people move differently, however, a critical position on these differentials reveals that movement is not an independent phenomenon. 
+                    Urban mobility potentials are extremely inequitable with low-income and racialized communities often facing the worst outcomes both in material realities 
+                    and in affective community conditions. My thesis attempts to both capture these material realities and more affective conditions through quantitative, qualitative, and geovisual methods. 
+                    The first step in completing this project is creating a qualitative "base map" on top of which I will plot qualitative/affective experiences of mobility based on the responses of my research participants 
+                    (interviews scheduled for July 2024).
+
+
+                    Layers used in this map use data sourced from the Atlanta Regional Open Data Portal (<a hred="https://opendata.atlantaregional.com/">https://opendata.atlantaregional.com</a>),
+                    US Census Bureau(<a hred="https://www.census.gov/cgi-bin/geo/shapefiles/index.php">https://www.census.gov</a>), and Social Explorer(<a hred="https://www.socialexplorer.com/explore-maps">https://www.socialexplorer.com</a>).
+                   
+                    
+                </p>
+                <h3>Tools and Softwares</h3>
+                <ul>
+                    <li><a hred="https://qgis.org/en/site/">QGIS</a> was used prepare.</li>
+                    <li><a hred="https://www.mapbox.com/mapbox-studio">Mapbox Studio</a> was used produce and maintain map and map layers.</li>
+                    <li>Source Code can be found on <a hred ="https://github.com/lalu-sz/Map-671-FinalProject-lalusz/tree/mainGithub">Github</a> and content is permissible for modification under an MIT licensing agreement.</li>
+                </ul>
+
+
+                <hr>
+               
+                </p>
+
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src="atl.jpg"
+                    title="Jackson Street Bridge">
+                <div class="linkbox">Photograph by Laurel Sparks</div>
+
+            </div>
+        </div>
+
+
+        <hr>
+        <!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
+        <a href="https://uky-gis.github.io">
+            <img src="uk-as-white.png" width="500" height="150" alt="Uinversity of Kentucky Geography"></a>
+    </section>
+</body>
+</html>
