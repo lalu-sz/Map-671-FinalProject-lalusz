@@ -1,9 +1,8 @@
 
-
  # Project title: Mobility Realities in Atlanta, Georgia
-### Map-671-FinalProject-lalusz
- Repository for MAP 671 Final Project
-Link to Github Page: [PUT SOMETHING HERE!!]
+ ## Map-671-FinalProject-lalusz
+ Repository for MAP 671 Final Project: https://github.com/lalu-sz/Map-671-FinalProject-lalusz
+ Github Page: https://lalu-sz.github.io/Map-671-FinalProject-lalusz/
 
 
 ## Project Contents
@@ -41,7 +40,7 @@ The first step towards building my MA project is creating a qualitative "base ma
 3. Prepared demographic data (sourced from **Social Explorer**) for GIS format in QGIS
 
  ![Data Prep and Label Extraction in QGIS for later use in Mapbox](img\Process1.JPG)
- 
+
 4. Styled all layers and labels in **Mapbox Studio**
 
 ### Map summary
@@ -55,7 +54,5 @@ Additionally we see key areas (especially towards more suburban North-Fulton and
 
 ## Final Project Link
 
-Here you are linking from the README.md to the index.html.
-
-Please view the [final map online](www.github...)
+Use this link to see the [final online map/webpage.](https://lalu-sz.github.io/Map-671-FinalProject-lalusz/)
 
